@@ -2,90 +2,108 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="title" content="design company Scandi">
+    <meta name="description" content="We select textiles, furniture and accessories for your interior, we will help arrange delivery.">
     <title>Zaverstai-5.0</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.svg">
 </head>
 <body>
 <div class=wrap>
     <header class="header">
-        <h1 class="">SCANDI</h1>
         <div class="logo">
-            <img src="#" class="logo__img" alt="Логотип компании 'SCANDI'.">
+            <img src="images/logo.svg" class="logo__img" alt="Логотип компании 'SCANDI'." width="26" height="25">
             <span class="logo__text">SCANDI</span>
         </div>
         <ul class="menu">
-            <li class="menu__item">О компании</li>
-            <li class="menu__item">Портфолио</li>
-            <li class="menu__item">Команда</li>
-            <li class="menu__item">Как мы работаем</li>
-            <li class="menu__item">Отзывы клиентов</li>
-            <li class="menu__item">Оставить заявку</li>
-            <li class="menu__item">+7 (981) 857-46-24</li>
+            <li class="menu__item">
+                <a href="#about" class="">О компании</a>
+            </li>
+            <li class="menu__item">
+                <a href="#works" class="">Портфолио</a>
+            </li>
+            <li class="menu__item">
+                <a href="#team" class="">Команда</a>
+            </li>
+            <li class="menu__item">
+                <a href="#working" class="">Как мы работаем</a>
+            </li>
+            <li class="menu__item">
+                <a href="#reviews" class="">Отзывы клиентов</a>
+            </li>
+            <li class="menu__item">
+                <a href="#contacts" class="">Оставить заявку</a>
+            </li>
+            <li class="menu__item">
+                <a href="tel:+79818574624" class="">+7 (981) 857-46-24</a>
+            </li>
         </ul>
     </header>
     <section class="hero">
-        <h2 class="title"></h2>
-        <p class="">Поможем сделать вашу квартиру уютнее</p>
+        <h1 class="title">Поможем сделать вашу квартиру уютнее</h1>
         <p class="">Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку </p>
-        <a href="#" class="">Оставить заявку</a>
+        <a href="#" class="btn">Оставить заявку</a>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <h2 class="title">О нас</h2>
-        <p class="">Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,  что по-настоящему вдохновляет дизайнеров нашей студии. </p>
-        <p class="">Наш коллектив сделает все, чтобы после сотрудничества с нами,  Вам было приятно сказать: « Да! Это именно то, что действительно достойно моего дома!»</p>
-        <ul class="">
+        <div class="about__content">
+            <img src="images/about.webp" alt="sample design" width="444" height="465">
+            <p class="">Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,  что по-настоящему вдохновляет дизайнеров нашей студии. </p>
+            <p class="">Наш коллектив сделает все, чтобы после сотрудничества с нами,  Вам было приятно сказать: « Да! Это именно то, что действительно достойно моего дома!»</p>
+        </div>
+        <ul class="about__prev list text--big text--light">
             <li class="">5 лет опыта</li>
             <li class="">100 проектов</li>
             <li class="">10 наград</li>
         </ul>
     </section>
-    <section class="works">
-        <h2 class="">Наши работы</h2>
-        <ul class="">
-            <li class="">
-                <img src="" alt="" class="">
-                <div class=>
-                    <h3 class="">Квартира-студия 30 кв.м.</h3>
-                    <p class="">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+    <section class="works" id="works">
+        <h2 class="title">Наши работы</h2>
+        <ul class="works__list">
+            <li class="=work">
+                <h3 class="work__title text--light">Квартира-студия 30 кв.м.</h3>
+                <p  class="work__text text--light">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+                <div class="work__content">
                 </div>
+                <img src="images/works/work_1.webp" class="work__img" alt="Studio apartment 30 sq.m." width="488" height="451">
             </li>
-            <li class="">
-                <img src="" alt="" class="">
+            <li class="work">
+                <img src="images/works/work_2.webp" alt="Studio apartment 20 sq.m." class="work__img" width="692" height="451">
             </li>
-            <li class="">
-                <img src="" alt="" class="">
+            <li class="work">
+                <img src="images/works/work_3.webp" alt="Studio apartment 10 sq.m." class="work__img" width="692" height="451">
             </li>
-            <li class="">
-                <img src="" alt="" class="">
+            <li class="work">
+                <img src="images/works/work_4.webp" alt="Studio apartment 40 sq.m." class="work__img" width="488" height="451">
             </li>
         </ul>
-        <a href="#" class="">Смотреть ещё </a>
+        <a href="#" class="text--big works__more">Смотреть ещё </a>
     </section>
-    <section class="team">
-        <h2 class="">Команда</h2>
-        <ul class="">
-            <li class="">
-                <img src="" alt="" class="">
-                <p class="">Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается
+    <section class="team" id="team">
+        <h2 class="title team__title">Команда</h2>
+        <ul class="team__list">
+            <li class="person">
+                <img src="images/teams/team_1.webp" alt="photo Masha" class="person__img" width="320" height="249">
+                <p class="person__about">Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается
 и помогает сделать вашу квартиру красивой и уютной.</p>
             </li>
-            <li class="">
-                <img src="" alt="" class="">
-                <p class="">С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы и ответит на все вопросы.</p>
+            <li class="person">
+                <img src="images/teams/team_2.webp" alt="photo Sasha" class="person__img" width="320" height="251">
+                <p class="person__about">С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы и ответит на все вопросы.</p>
             </li>
-            <li class="">
-                <img src="" alt="" class="">
-                <p class="">Катя тоже занимается дизайном.Она всегда находит общий язык с клиентами и точно знает,
+            <li class="person">
+                <img src="images/teams/team_3.webp" alt="photo Katya" class="person__img" width="320" height="253">
+                <p class="person__about">Катя тоже занимается дизайном.Она всегда находит общий язык с клиентами и точно знает,
                     как обустроить дом так, чтобы вам понравилось.</p>
             </li>
         </ul>
     </section>
-    <section class="working">
-        <h2 class="">Как мы работаем</h2>
-        <ul class="">
+    <section class="working" id="working">
+        <h2 class="title">Как мы работаем</h2>
+        <ol class="working__list">
             <li class="">
                 <p class="">Знакомимся, выезжаем на объект, утверждаем концепцию, подписываем договор.</p>
             </li>
@@ -98,43 +116,48 @@
             <li class="">
                 <p class="">Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей</p>
             </li>
-        </ul>
+        </ol>
     </section>
-    <section class="reviews">
-        <h2 class="">Отзывы</h2>
-        <ul class="">
-            <li class="">
-                <figure>
-                    <blockquote class="">
-                        <p class="">«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.</p>
-                        <p class="">Работа шла быстро, было очень приятно общаться и взаимодествовать
-                            с сотрудниками. Не ожидала, что это будет так легко!</p>
-                        <p class="">Буду советовать и своим друзьям к вам обращаться!»</p>
-                    </blockquote>
-                    <figcaption>АННА БЕЛОВСКАЯ</figcaption>
-                </figure>
-
-            </li>
-        </ul>
+    <section class="reviews" id="reviews">
+        <h2 class="title">Отзывы</h2>
+        <div class="slider">
+            <figure class="slider__item slide">
+                <img src="images/review/review_1.webp" alt="dining room photo" width="407" height="272">
+                <img src="images/review/review_2.webp" alt="kitchen photo" width="407" height="272">
+                <blockquote>
+                    <p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.</p>
+                    <p>Работа шла быстро, было очень приятно общаться и взаимодествовать
+                        с сотрудниками. Не ожидала, что это будет так легко!</p>
+                    <p>Буду советовать и своим друзьям к вам обращаться!»</p>
+                </blockquote>
+                <figcaption>АННА БЕЛОВСКАЯ</figcaption>
+            </figure>
+        </div>
+        <div class="slider__control">
+            <button class="slider__prev">prev</button>
+            <button class="slider__next">next</button>
+        </div>
     </section>
-    <section class="map">
-        <h2 class="">Оставить заявку</h2>
-        <p class="">Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
-        <form action="#" class="">
-            <p class="">
-                <input type="text" id="name">
-                <label for="name" class="">Ваше имя</label>
+    <section class="contacts" id="contacts">
+        <h2 class="title text--light">Оставить заявку</h2>
+        <p class="text--light">Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
+        <form action="#" class="form">
+            <p class="form__item">
+                <input type="text" id="name" placeholder="Ваше имя">
+                <label for="name" class="text--light">Ваше имя</label>
             </p>
             <p class="">
-                <input type="text" id="tel">
-                <label for="tel" class="">Введите телефон</label>
+                <input type="text" id="tel" placeholder="Введите телефон">
+                <label for="tel" class="text--light">Введите телефон</label>
             </p>
         </form>
-        <p class="">Оставить заявку</p>
+        <img src="images/map.webp" alt="address where you can find us: St. Petersburg
+Bolshaya Konyushennaya street 19" class="contacts__map" width="590" height="624">
+        <a href="#" class="btn">Оставить заявку</a>
     </section>
     <footer class="footer">
-        <p class="">+7 (981) 857-46-24</p>
-        <p class="">г. Санкт-петербург, ул. Большая Конюшенная, 19</p>
+        <a href="tel:+79818574624" class="">+7 (981) 857-46-24</a>
+        <address>г. Санкт-петербург, ул. Большая Конюшенная, 19</address>
         <p class="">ИП Королёва А.А.</p>
     </footer>
 </div>
